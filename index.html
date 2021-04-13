@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atendimento On-line</title>
+    <link rel="stylesheet" type="text/css" href="cadastro.css"/>
+   
+</head>
+<body>
+    <header>
+        <div class="headerr">  
+            <a href="https://web.satc.edu.br" target="_blank">
+                <img src="https://www1.satc.edu.br/portais/acesso/public/assets/img/logoSatc.png" alt="Logo satc"> 
+        </div>
+        </a>
+    </header>
+             
+    <div id="contentChat">
+        <div id="cabecalhochat">
+            <h2>Atendimento On-line</h2>
+        </div>
+        <div id="caixamaior">
+            <div id="caixamenor" class="formContent">
+                <div id="chatatendente">
+                    <div class="row">
+                        <label for="atendente.chat1">Atendente diz:</label><p>
+                        <input type="text" id="chatatendente1" name="chatatendente1" readonly="readonly" value= "Olá, seja bem vindo!" atendente.chat="atendente.chat1"/>
+                    </div>   
+
+                    <div class="row">
+                        <label for="atendente.chat2">Atendente diz:</label><p>
+                        <input type="text" id="chatatendente2" name="chatatendente2" readonly="readonly" value= "No que posso lhe ajudar?" atendente.chat="atendente.chat2"/><p>
+                    </div>
+                </div>
+
+                <div id="userchat" class="formContent"> 
+                    <div class="row">
+                        <label for="user.chat1">Você diz:</label>
+                        <input type="text" id="user.chat1" name="userchat1" readonly="readonly"  value= "Olá!" atendente.chat="user.chat1"/>
+                    </div>
+                
+                    <div class="row">
+                        <label for="user.chat2" class="textAlignRight">Você diz:</label>
+                        <textarea name="userchat2" id="" cols="10" rows="1.5"></textarea>
+                    </div>
+                </div>              
+            </div>
+        <div class="row">
+                <input class="button" id="btnSend" name="Enviar" type="button" value="Enviar" id="botao1">  
+
+                <div class="input">
+                    <textarea class = "userchat3" name="userchat3" id="userchat3" cols="30" rows="10" placeholder="Digite sua mensagem..."></textarea>            
+                </div>
+        </div>  
+    </div>
+     
+</body>
+</html>

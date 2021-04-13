@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Helvetica;
+    font-size: 25;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+.headerr {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    
+}
+
+#contentChat {
+    display: block;
+    width: 290px;
+    margin: 0 auto;
+}
+
+#cabecalhochat {
+    border: 1px solid black;
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+#caixamaior {
+    border: 1px solid black;
+    padding: 5px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#caixamenor {
+    border: 1px solid black;
+    padding: 5px;
+    margin: 0 auto;
+}
+
+#chatatendente {
+    margin: 10% auto 0 auto;
+}
+
+#userchat { 
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: right;
+    margin-bottom: 35px;
+}
+
+#inserttext {
+    display: flex;
+    flex-direction: row;
+}
+
+.formContent .row {
+    display: block;
+    margin-top: 10px;
+}
+
+.formContent label{
+    display: block;
+}
+
+.formContent input{
+    display: block;
+} 
+
+.button {
+    float: right;
+    margin-top: 10px;
+}
+
+.input {
+    overflow: hidden;
+    padding: 0 10px 0 0;
+}
+
+.input input {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    width: 100%
+}
+
+.textAlignRight {
+    text-align: right;
+}
+
+h2 {
+    color: rgb(24, 24, 77);
+    font-size: 15px;
+}
+
+textarea {
+    
+    width: 170px;
+}
+
+#botao1 {
+    color: rgb(16, 82, 16);
+}
